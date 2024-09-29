@@ -1,7 +1,0 @@
-{
-    "name": "Java",
-	"image": "openjdk:latest",
-	//"dockerFile": "Dockerfile",
-	//"remoteUser": "main"
-	//"postCreateCommand": "pip3 install -r requirements.txt"
-}
