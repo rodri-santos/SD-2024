@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Start Page</title>
+</head>
+<body style="background-color: powderblue; font-family: Arial, sans-serif; text-align: center; padding: 20px;">
+    <h1 style="color: navy; margin-bottom: 20px;">Googol</h1>
+    <form th:action="@{/start}" method="post" style="margin-bottom: 20px;">
+        <div style="margin-bottom: 10px;">
+            <label for="url" style="font-size: 18px; margin-right: 10px;">Index URL:</label>
+            <input type="text" id="url" name="url" required style="padding: 5px; font-size: 16px; width: 300px;">
+        </div>
+        <button type="submit" style="padding: 10px 20px; font-size: 16px; background-color: navy; color: white; border: none; border-radius: 5px; cursor: pointer;">Submit</button>
+    </form>
+    <a href="/search" style="font-size: 18px; color: navy; text-decoration: none;">Search Query</a>
+</body>
+</html>

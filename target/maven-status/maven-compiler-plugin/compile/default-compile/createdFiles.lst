@@ -1,0 +1,13 @@
+com\example\servingwebcontent\forms\Project.class
+com\example\backend\RMISearchModule_proj_Interface.class
+com\example\servingwebcontent\Example.class
+com\example\servingwebcontent\beans\Number.class
+com\example\servingwebcontent\ThymeleafServlet.class
+com\example\backend\RMISearchModule_proj.class
+com\example\servingwebcontent\GreetingController.class
+com\example\backend\IndexStorageBarrel_proj_Interface.class
+com\example\servingwebcontent\thedata\Employee.class
+com\example\backend\Downloader_proj.class
+com\example\backend\InfoUrl_proj.class
+com\example\backend\IndexStorageBarrel_proj.class
+com\example\servingwebcontent\ServingWebContentApplication.class
