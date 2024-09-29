@@ -1,0 +1,66 @@
+<form th:action="@{/save-project}" th:object="${project}" method="post">
+    <div="form-row">
+        <div>
+            <label>Project ID</label>
+            <input type="number" th:field="*{id}">
+        </div>
+        <div>
+            <label>Title</label>
+            <input type="text" th:field="*{title}"
+                               th:classappend="${#fields.hasErrors('title')} ? 'error-field'">
+        </div>
+        <div>
+            <label>Type</label>
+            <select th:field="*{type}">
+                <option value="">Choose...</option>
+                <option value="Design">Design</option>
+                <option value="Engineering">Engineering</option>
+                <option value="Marketing">Marketing</option>
+            </select>
+        </div>
+        <div>
+            <label>Color</label>
+            <input type="color" th:field="*{color}">
+        </div>
+        <div>
+            <label>Estimated Price</label>
+            <input type="number" step="any" th:field="*{price}">
+        </div>
+        <div>
+            <label>Launch Date</label>
+            <input type="datetime-local" th:field="*{launchDate}">
+        </div>
+    </div>
+    <div>
+        <label>Description</label>
+        <textarea th:field="*{description}" rows="3"></textarea>
+    </div>
+    <div>
+        <strong>Duration:</strong>
+        <div>
+            <input type="radio" th:field="*{days}" id="option1" value="15">
+            <label for="option1">15 Days</label>
+        </div>
+        <div>
+            <input type="radio" th:field="*{days}" id="option2" value="30">
+            <label for="option2">30 Days</label>
+        </div>
+        <div>
+            <input type="radio" th:field="*{days}" id="option3" value="45">
+            <label for="option3">45 Days</label>
+        </div>
+    </div>
+    <div>
+        <div>
+            <input type="checkbox" th:field="*{featured}" id="featured">
+            <label for="featured">
+                Mark Featured
+            </label>
+        </div>
+    </div>
+    <div>
+        <label>Description</label>
+        <textarea th:field="*{description}" rows="3"></textarea>
+    </div>
+    <button type="submit">Save Project</button>
+</form>

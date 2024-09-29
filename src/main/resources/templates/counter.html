@@ -1,0 +1,14 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head> 
+    <title>Getting Started: Serving Web Content</title> 
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+    <p th:text="'Session counter 1: ' + ${sessioncounter} + '.'" />
+    <p th:text="'Request counter 2: ' + ${requestcounter2} + '.'" />
+    <p th:text="'Session counter 2: ' + ${sessioncounter2} + '.'" />
+    <p th:text="'Application counter 2: ' + ${applicationcounter2} + '.'" />
+    <p th:text="'Teste José: ' + ${session.counter} + '.'" />
+</body>
+</html>
