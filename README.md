@@ -36,4 +36,4 @@ Mafalda Duarte - _2021236492_
         * No computador onde vai estar o server (terá que efetuar todos os 4 passos), tem que mudar todas os sítios onde está _localhost_ para o seu _IP (exemplo 123.456.7.89)_ em  **_RMISearchModule_proj.java_**, **_GreetingController.java_**, **_ThymeleafServlet.java_**
         * No computador que só vai aceder, fazer as mesmas alterações de _localhost_ para o mesmo _IP_ (neste caso _123.456.7.89_) do computador onde está a correr o server e executar todos os passos menos o **2º Passo**;
 
-> Faltou implementar API do ChatGPT e ver todos os urls indexados a um url na meta 2, na meta 1 está feito o código para tal, pelo que só faltou a sau implementação no frontend.
+> Faltou implementar API do ChatGPT e ver todos os urls indexados a um url na meta 2, na meta 1 está feito o código para tal, pelo que só faltou a sua implementação no frontend.
