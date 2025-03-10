@@ -3,7 +3,7 @@
 
 Rodrigo Santos - _2021236556_
 
-Mafalda Duarte - _2021236492_
+[Mafalda Duarte](https://github.com/mafs27) - _2021236492_
 
 
 ~~#########################~~ **Instalações** ~~########################~~
